@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  background-image:linear-gradient(135deg,white,#1FFFFD,#1BDFDD,#17BFBE);
+  min-height:100%;
+}
+
+
+img{
+  width:100%;
+  display:block;
+  height:6em;
+}
+
+header{
+   margin:auto;
+  text-align:center;
+  font-family: 'Gayathri', sans-serif;
+  color:orange;
+  font-size:1.4em;
+  -webkit-text-stroke: 1px black;
+}
+
+a{
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  color:black;
+  padding:1em;
+  width:50%;
+  margin:auto;
+  margin-top:1em;
+  margin-bottom:1em;
+  border-radius:5px;
+
+}
+
+#general-btn{
+  font-family:Impact;
+  font-size:1.2em;
+  background-color:#ffdb9b;
+}
+
+#general-btn:hover{
+  background-color:#CC8609;
+}
+
+#cats-btn{
+  font-family:"Courier New";
+  background-color:#ffc968;
+  font-size:1.2em;
+}
+
+#cats-btn:hover{
+  background-color:#CC8609;
+}
+
+#sandwiches-btn{
+  font-family:"Lucida Console";
+  font-size:1.2em;
+  background-color:#ffb735;
+}
+
+
+#sandwiches-btn:hover{
+  background-color:#CC8609;
+}
+
+#beer-btn{
+  font-family:"Trebuchet MS";
+  background-color:#ffae1b;
+  font-size:1.2em;
+}
+
+#beer-btn:hover{
+  background-color:#CC8609;
+}
+
+#tech-btn{
+  font-family:monospace;
+  background-color:#ffa501;
+  font-size:1.5em;
+}
+
+#tech-btn:hover{
+  background-color:#CC8609;
+}
+
+.replies {
+  margin-left: 50px;
+}
+
+.reply {
+  border: 1px dotted black;
+  margin: 5px;
+  padding: 5px;
+  background-color:white;
+}
+
+.newReply {
+  margin: 10px 5px 10px 5px;
+}
+
+.thread {
+  border: 2px solid black;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color:beige;
+}
+
+.thread h3{
+  color:green;
+  font-weight:bold;
+  text-align:center;
+  font-size:1.5em;
+}
+.thread p{
+  padding:0.4em;
+}
+#threadTitle{
+color:darkgray;
+  -webkit-text-stroke: 1px black;
+  text-align:center;
+}
+
+.id {
+  font-size: 10.5px;
+}
+
+#submitNewThread {
+  margin: 50px;
+}
+
+.reportKey{
+  padding:0.2em;
+  background-color:hsl(42, 97%, 48%);
+  color:white;
+  border:red;
+  border-radius:5px;
+  margin-top:0.1em;
+  margin-bottom:0.1em;
+}
+
+.reportKey:hover{
+  background-color:hsl(42, 97%, 25%);
+  margin-top:0.1em;
+  margin-bottom:0.1em;
+}
+
+.deleteKey{
+  padding:0.2em;
+  background-color:hsl(360, 100%, 50%);
+  color:white;
+  border:red;
+  border-radius:5px;
+  margin-left:0.1em;
+}
+
+.deleteKey:hover{
+  background-color:hsl(360, 100%, 25%);
+  color:white;
+  margin-left:0.1em;
+}
