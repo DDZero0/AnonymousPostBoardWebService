@@ -1,3 +1,5 @@
+permalink: /index.html
+
 **FreeCodeCamp**- Information Security and Quality Assurance
 ------
 
